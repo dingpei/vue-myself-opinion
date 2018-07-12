@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0;
+    font-family: "HelveticaNeue","Helvetica","Arial","sans-serif";
+}
+.center{
+	width: 1100px;
+	margin:0 auto;
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
+.hidden{
+	overflow: hidden;
+}
+ul,ol,dl,li,dd{
+	list-style: none;
+}
+i{
+	font-style: normal;
+}
+textarea{
+	resize: none;
+}
+textarea, input{
+	outline: none;
+}

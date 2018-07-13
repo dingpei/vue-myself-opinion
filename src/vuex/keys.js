@@ -1,21 +1,7 @@
 //USER模块
 //
 
-
-//病人详情     
-export const PATIENT_INFO   = 'PATIENT_INFO' 
-
-//登录状态    
-export const LOGIN_STATUS   = 'LOGIN_STATUS' 
-
-export const IS_LOGIN     =   'IS_LOGIN'
-
-//用户信息
-export const USER_INFO     =   'USER_INFO'
-
-//异常信息
-export const ERROR_INFO     =   'ERROR_INFO'
-
+export const A = 'A'
 
 
 //类表详情信息    

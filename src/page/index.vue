@@ -16,22 +16,24 @@
     },
     computed:{
       ...mapGetters([//放置vuex中的数据
-           'loginStatus',
+           'a',
        ]),
     },
     watch:{
-      
+      a(val ,old){
+        console.log(val)
+      }
     },
     methods:{
       //放置vuex中数据相关的方法
        ...mapActions({
-          getLogin:'getLogin'
+          getA:'getA'
         }),
        //本组件方法
 
     },
     mounted(){
-      
+      this.getA()
     }
   }
 </script>

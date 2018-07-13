@@ -21,6 +21,10 @@
 						url:"https://juejin.im/post/5adc99f56fb9a07abd0d3ee7?from=timeline",
 						name:"Vue还有这种骚操作？浅析几个新手常常忽略的API"
 					},
+					{
+						url:"https://www.w3cplus.com/mobile/vw-layout-in-vue.html",
+						name:"如何在Vue项目中使用vw实现移动端适配"
+					},
 				]
 			}
 		},

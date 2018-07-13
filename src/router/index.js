@@ -34,12 +34,18 @@ const router = new Router({
     {
       path: '/error',
       name: 'error',
-      component: resolve => require(['../page/error'], resolve)
+      component: resolve => require(['../page/error'], resolve),
+      meta:{
+        title:"error"
+      }
     },
     {
       path: '/other',
       name: 'other',
-      component: resolve => require(['../page/other'], resolve)
+      component: resolve => require(['../page/other'], resolve),
+       meta:{
+        title:"other"
+      }
     }
   ]
 })

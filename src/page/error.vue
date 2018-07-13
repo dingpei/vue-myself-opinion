@@ -6,7 +6,8 @@
 		</div>
 		<div>
 			2、使用导航菜单el-menu 遍历数据的时候，el-el-menu-item 直接绑定index的时候报错：<br>
-			<span>Invalid prop: type check failed for prop "index". Expected String, got Number.</span>
+			<span>Invalid prop: type check failed for prop "index". Expected String, got Number.</span><br>
+			<i>解决方案：</i><span> :index=" ' ' + index" </span>
 		</div>
 	</section>
 </template>

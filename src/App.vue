@@ -13,8 +13,8 @@
 
 <script>
 	export default{
-		name:'App',
-		data(){
+		name: 'App',
+		data() {
 			return {
 				 activeIndex: '0',
 				 navMenu:[
@@ -35,16 +35,12 @@
 				 		toUrl:"/other",
 				 	},
 				 ]
-			}
+			};
 		},
 		methods:{
-			handleSelect(key, keyPath){
-
-			}
+			handleSelect(key, keyPath){}
 		},
-		mounted(){
-
-		}
+		mounted(){}
 
 	}
 </script>

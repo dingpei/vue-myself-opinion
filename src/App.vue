@@ -38,7 +38,11 @@
 			};
 		},
 		methods:{
-			handleSelect(key, keyPath){}
+			handleSelect(key, keyPath){
+				if (false) {
+					console.log(123456);
+				}
+			}
 		},
 		mounted(){}
 
